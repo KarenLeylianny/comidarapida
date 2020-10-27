@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hola_mundo/screens/splash.dart';
 
 class Loggin extends StatefulWidget {
   const Loggin({Key key}) : super(key: key);
@@ -165,7 +166,7 @@ class _LogginState extends State<Loggin> {
                     child: FlatButton(
                       onPressed: () {
                         Navigator.push(context,
-                            MaterialPageRoute(builder: (context) => Loggin()));
+                            MaterialPageRoute(builder: (context) => Splash()));
                       },
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
